@@ -1,0 +1,35 @@
+body {
+    background-color: #f0edee;
+    color: #109e38;
+    font-family: Helvetica;
+    margin: 0 auto;
+    padding-top: 10%;
+    width: 476px;
+}
+
+p {
+    font-size: 10px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+ul li {
+    border-top: 25px solid #075fa3;
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: bolder;
+}
+
+ul li.inverse {
+    border-color: #109e38;
+    color: #075fa3;
+}
+
+ul li.inverse:last-child {
+    border-bottom: 25px solid #109e38;
+}
